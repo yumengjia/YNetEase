@@ -1,0 +1,72 @@
+{
+  "id": "3361233",
+  "name": "netease",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "27960609",
+      "name": "爆米花",
+      "font_class": "baomihua",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "28431693",
+      "name": "寿司",
+      "font_class": "shousi",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "28535661",
+      "name": "海蜇",
+      "font_class": "haizhe",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    },
+    {
+      "icon_id": "28563568",
+      "name": "糯米糍",
+      "font_class": "nuomici",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "28587761",
+      "name": "章鱼小丸子",
+      "font_class": "zhangyuxiaowanzi",
+      "unicode": "e6a2",
+      "unicode_decimal": 59042
+    },
+    {
+      "icon_id": "28676966",
+      "name": "荷包蛋",
+      "font_class": "hebaodan",
+      "unicode": "e6a6",
+      "unicode_decimal": 59046
+    },
+    {
+      "icon_id": "28881558",
+      "name": "泡芙",
+      "font_class": "paofu",
+      "unicode": "e6b3",
+      "unicode_decimal": 59059
+    },
+    {
+      "icon_id": "28911612",
+      "name": "扇贝",
+      "font_class": "shanbei",
+      "unicode": "e6b4",
+      "unicode_decimal": 59060
+    },
+    {
+      "icon_id": "29312199",
+      "name": "香草冰淇淋",
+      "font_class": "xiangcaobingqilin",
+      "unicode": "e6c2",
+      "unicode_decimal": 59074
+    }
+  ]
+}

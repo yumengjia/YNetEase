@@ -1,30 +1,33 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div class="body">
+    <!-- <Layouts/> -->
+    <router-view></router-view>
+    <div v-show="store.state.user.isFooter">
+      <Footer/>
+    </div>
+  </div>
 </template>
-
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+<script>
+// import Layouts from '@/views/Layouts'
+import Footer from '@/components/Footer'
+// import UserNews from '@/views/UserNews'
+import {useStore} from 'vuex'
+export default {
+  name:'App',
+  components:{Footer},
+  setup() {
+    const store = useStore()
+    return {store}
   }
 }
+</script>
+<style lang="less" scoped>
+  .body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #eee;
+  }
 </style>
